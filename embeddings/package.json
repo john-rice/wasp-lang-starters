@@ -1,5 +1,6 @@
 {
   "name": "__waspAppName__",
+  "type": "module",
   "dependencies": {
     "@pinecone-database/pinecone": "^3.0.2",
     "@types/pdf-parse": "1.1.1",
