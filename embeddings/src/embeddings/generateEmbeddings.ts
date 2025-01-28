@@ -38,7 +38,7 @@ const chunkContent = (file: FileToEmbed) => {
 
   const contentTokens = encode(content).length;
 
-  let contentChunks = [];
+  let contentChunks: string[] = [];
 
   if (contentTokens > CHUNK_SIZE) {
     /**
